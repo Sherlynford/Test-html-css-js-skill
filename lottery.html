@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lottery Game</title>
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+</head>
+<body>
+    <!-- Add this to your HTML wherever you want the "Go Back" button to appear -->
+<div class="goback-button">
+    <a href="test.html">Go Back to Homepage</a>
+</div>
+
+    <div class="container">
+        <h1>Lottery</h1>
+        <p>Guess a number between 1 and 100:</p>
+        <input type="number" id="guessInput">
+        <button onclick="checkGuess()">Check</button>
+        <p id="resultText"></p>
+        <p id="moneyText"></p>
+        
+        <table id="historyTable">
+            <tr>
+                <th>Guess</th>
+            </tr>
+        </table>
+    </div>
+    
+    <script src="script2.js"></script>
+</body>
+</html>

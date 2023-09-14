@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="log-res.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form id="register-form">
+            <h2>Register</h2>
+            <div class="input-container">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-container">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <!-- Add more registration fields as needed -->
+            <button type="submit">Register</button>
+        </form>
+        <p id="error-message" class="error-message"></p>
+        <a href="login.html" class="login-link">Login</a>
+        <div class="goback-button">
+            <a href="test.html">Go Back to Homepage</a>
+        </div>
+    </div>
+    
+    <script src="register.js"></script>
+    
+</body>
+</html>
